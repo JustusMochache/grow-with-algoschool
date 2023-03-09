@@ -1,4 +1,68 @@
+body{
+  background-color: rgba(210, 221, 247, 0.5);
+}
+
 .bluish{
   
-  background-color: rgba(234, 229, 244, 0.5); /* White with 50% opacity */
+  background-color: rgba(210, 221, 247, 0.5); /* White with 50% opacity */
+}
+
+
+/* .small-width {
+  max-width: 50%;
+} */
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #FFA500;
+  border-radius: 40px;
+  background-color: #ff5500;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #dbdbed;
+  color: #2621ba;
+  border: 1px solid #2035af;
+  border-radius: 5px;
+}
+/* 
+here is css for course details */
+
+/* .card {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.card-header {
+  background-color: #FFA500;
+  color: #ffffff;
+  padding: 20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
+
+h2, h3 {
+  margin-top: 0;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.rounded {
+  border-radius: 5px;
 }
