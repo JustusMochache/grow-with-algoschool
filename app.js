@@ -14,3 +14,11 @@ function toggleList() {
 }
 
 
+const cardHeaders = document.querySelectorAll('.jcard-header');
+
+cardHeaders.forEach(cardHeader => {
+  cardHeader.addEventListener('click', () => {
+    const cardBody = cardHeader.nextElementSibling;
+    cardBody.classList.toggle('hidden');
+  });
+});
