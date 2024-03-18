@@ -36,9 +36,9 @@ function showSnackbar(message) {
 }
 
 // Example usage
-showSnackbar("Site rapidly updating in real time!");
+// showSnackbar("Site rapidly updating in real time!");
 
-// Update message every 24 hours
-setInterval(function(){
-	showSnackbar("Site updating rapidly in real time!");
-}, 1000000);
+// // Update message every 24 hours
+// setInterval(function(){
+// 	showSnackbar("Site updating rapidly in real time!");
+// }, 1000000);
