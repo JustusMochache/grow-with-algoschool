@@ -25,15 +25,15 @@ cardHeaders.forEach(cardHeader => {
 
 // for snackbar
 
-function showSnackbar(message) {
-	var snackbar = document.getElementById("snackbar");
-	snackbar.innerHTML = message;
-	snackbar.classList.add("show");
+// function showSnackbar(message) {
+// 	var snackbar = document.getElementById("snackbar");
+// 	snackbar.innerHTML = message;
+// 	snackbar.classList.add("show");
 
-	setTimeout(function(){
-		snackbar.classList.remove("show");
-	}, 6000);
-}
+// 	setTimeout(function(){
+// 		snackbar.classList.remove("show");
+// 	}, 6000);
+// }
 
 // Example usage
 // showSnackbar("Site rapidly updating in real time!");
